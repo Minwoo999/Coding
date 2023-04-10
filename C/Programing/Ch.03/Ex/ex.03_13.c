@@ -15,5 +15,7 @@ int main()
   total_price = amount * price * (1 + VAT_RATE);
   printf("ÇÕ°è : %d¿ø\n", total_price);
 
+  // VAT_RATE = 0.15;
+
   return 0;
 }
