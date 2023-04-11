@@ -5,6 +5,15 @@
 
 int euclid_1(int a, int b)
 {
+
+  int tem;
+
+  if (a < b)
+  {
+    tem = a;
+    a = b;
+    b = tem;
+  }
   if (b == 0)
     return a;
 

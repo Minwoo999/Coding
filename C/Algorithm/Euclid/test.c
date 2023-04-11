@@ -29,7 +29,6 @@ void test()
   finish = clock();
   duration = (double)(finish - start) / CLOCKS_PER_SEC;
 
-  printf("%d %d %d", Array1[4], Array2[4], result1[4]);
   printf("재귀 알고리즘에서 걸린 시간은 %lf초 입니다.\n", duration);
 
   start = clock();
@@ -41,7 +40,6 @@ void test()
   finish = clock();
   duration = (double)(finish - start) / CLOCKS_PER_SEC;
 
-  printf("%d %d %d", Array1[4], Array2[4], result2[4]);
   printf("반복 알고리즘에서 걸린 시간은 %lf초 입니다.\n", duration);
 
   for (int i = 0; i < 10000; i++)
