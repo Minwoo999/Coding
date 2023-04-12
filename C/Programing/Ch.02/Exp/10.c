@@ -5,25 +5,22 @@
 개발자 : 김민우 (201810198)
 **********************/
 
-
 // 10번
-
 
 #include <stdio.h>
 
 int main()
 {
-	int num;
+  int num;
 
-	printf("8진수로 입력하려면 012, 16진수로 입력하려면0x12처럽 입력하세요.");
-	
-	printf("정수?");
-	scanf("%i", &num);
+  printf("8진수로 입력하려면 012, 16진수로 입력하려면0x12처럽 입력하세요.");
 
-	printf("8진수: %#o\n", num);
-	printf("10진수: %d\n", num);
-	printf("16진수: %#x\n", num);
+  printf("정수?");
+  scanf("%i", &num);
 
+  printf("8진수 : %#o\n", num);
+  printf("10진수 : %d\n", num);
+  printf("16진수 : %#x\n", num);
 
-	return 0;
+  return 0;
 }
