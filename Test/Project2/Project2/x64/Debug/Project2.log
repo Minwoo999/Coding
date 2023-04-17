@@ -1,0 +1,3 @@
+﻿  FileName.c
+C:\Com\Coding\Test\Project2\Project2\FileName.c(6,6): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+  Project2.vcxproj -> C:\Com\Coding\Test\Project2\x64\Debug\Project2.exe
