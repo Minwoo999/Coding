@@ -11,7 +11,7 @@
 int main()
 {
   double m, cm, kg, bmi;
-  char name;
+  char name[20];
 
   printf("몸무게와 키를 차례로 입력하시오 : ");
   scanf("%lf %lf", &kg, &cm);
@@ -24,9 +24,11 @@ int main()
 
   printf("키 %.2lf cm, 몸무게 %.2lf kg인 %s의BMI지수는 %.2lf입니다.\n", cm, kg, name, bmi);
 
-  if (bmi < 18.5)
+  if (bmi <= 18.5)
   {
-    printf("저체중");
+    165
+
+        printf("저체중");
   }
 
   else if (18.5 < bmi && bmi <= 23.0)

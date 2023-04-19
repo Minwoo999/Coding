@@ -10,15 +10,15 @@
 
 int main()
 {
-  int mid, end;
+  int mid, final;
   double avg;
 
-  printf("중간고사 점수를 입력하세요 : ");
+  printf("중간고사 점수를 입력하세요. : ");
   scanf("%d", &mid);
-  printf("기말고사 점수를 입력하세요 : ");
-  scanf("%d", &end);
+  printf("기말고사 점수를 입력하세요. : ");
+  scanf("%d", &final);
 
-  avg = (mid + end) / 2.0;
+  avg = (mid + final) / 2.0;
 
   if (avg < 70)
   {

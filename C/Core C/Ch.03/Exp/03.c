@@ -18,7 +18,7 @@ int main()
   printf("높이(m)?");
   scanf("%lf", &m);
 
-  double J = 98 * kg * m;
+  double J = 9.8 * kg * m;
 
   printf("위치에너지 : %lf J", J);
 
