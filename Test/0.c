@@ -1,28 +1,29 @@
+/**********************
+프로그램명 : 시간 계산
+프로그램 내용 : 초를 입력 받아 시, 분, 초 로 출력
+실습일 : 2023.04.07
+개발자 : 김민우 (201810198)
+**********************/
+
+// time
+
 #include <stdio.h>
 
-int main(void)
+int main()
 {
-  char c1, c2, c3, c4;
-  unsigned int result = 0x00000000;
+  int i_sec, hour, min, sec;
 
-  printf("첫번째 문자를 입력하시오: ");
-  scanf(" %c", &c1);
+  printf("초를 입력 >> ");
+  scanf("%d", &i_sec);
+  hour = i_sec / 3600;
+  i_sec = i_sec - hour * 3600;
+  min = i_sec / 60;
+  i_sec = i_sec - min * 60;
+  sec = i_sec;
 
-  printf("두번째 문자를 입력하시오: ");
-  scanf(" %c", &c2);
-
-  printf("세번째 문자를 입력하시오: ");
-  scanf(" %c", &c3);
-
-  printf("네번째 문자를 입력하시오: ");
-  scanf(" %c", &c4);
-
-  result = result | c1;
-  result = result | (c2 << 8);
-  result = result | (c3 << 16);
-  result = result | (c4 << 24);
-
-  printf("결과값: %x\n", result);
+  printf("입력받은 초는 %d시간 %d분 %d초 입니다.\n", hour, min, sec);
 
   return 0;
 }
+
+날씨도 추가하기

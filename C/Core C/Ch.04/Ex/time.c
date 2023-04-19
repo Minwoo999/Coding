@@ -11,19 +11,16 @@
 
 int main()
 {
-  int i_sec, hour, min, sec;
+  int sec, hour, min, sec;
 
   printf("초를 입력 >> ");
-  scanf("%d", &i_sec);
-  hour = i_sec / 3600;
-  i_sec = i_sec - hour * 3600;
-  min = i_sec / 60;
-  i_sec = i_sec - min * 60;
-  sec = i_sec;
+  scanf("%d", &sec);
 
-  printf("입력받은 초는 %d시간 %d분 %d초 입니다.\n", hour, min, sec);
+  hour = sec / 3600;
+  min = sec % 3600 / 60;
+  sec %= 60;
+
+  printf("%d시간 %d분 %d초 ", hour, min, sec);
 
   return 0;
 }
-
-날씨도 추가하기
