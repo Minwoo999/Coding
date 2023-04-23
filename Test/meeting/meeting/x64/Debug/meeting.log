@@ -1,7 +1,0 @@
-﻿  meeting.c
-C:\Com\Coding\Test\meeting\meeting\meeting.c(56,5): error C2084: 'int main()' 함수에 이미 본문이 있습니다.
-C:\Com\Coding\Test\meeting\meeting\meeting.c(10,5): message : 'main'의 이전 정의를 참조하십시오.
-C:\Com\Coding\Test\meeting\meeting\meeting.c(109,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Com\Coding\Test\meeting\meeting\meeting.c(117,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Com\Coding\Test\meeting\meeting\meeting.c(126,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Com\Coding\Test\meeting\meeting\meeting.c(128,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

@@ -1,12 +1,10 @@
 import turtle
 
 t = turtle.Turtle()
-t.shape("turtle")
+t.shape("square")
+t.width(10)
+t.color("blue")
 
-t.forward(100)
-t.left(120)
-t.forward(100)
-t.left(120)
 t.forward(100)
 
 turtle.mainloop
