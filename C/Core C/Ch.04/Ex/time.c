@@ -9,9 +9,8 @@
 
 #include <stdio.h>
 
-int main()
-{
-  int sec, hour, min, sec;
+int main() {
+  int sec, hour, min;
 
   printf("초를 입력 >> ");
   scanf("%d", &sec);
